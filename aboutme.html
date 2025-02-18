@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Aditi Purohit</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #74ebd5, #acb6e5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        main {
+            padding: 40px;
+            background-color: rgba(255, 255, 255, 0.95);
+            max-width: 700px;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h1 {
+            font-size: 3.2em;
+            font-weight: 700;
+            color: #333;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .about-content p {
+            font-size: 1.3em;
+            margin: 12px 0;
+        }
+
+        .video-container {
+            margin-top: 20px;
+        }
+
+        video {
+            max-width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>About Me</h1>
+        </header>
+        <div class="about-content">
+            <p>I am <strong>Aditi Purohit</strong>, a Computer Science and Engineering student at Graphic Era Hill University with expertise in <strong>HTML & CSS</strong>. Passionate about web development, I have also developed leadership and business development skills during my tenure at <strong>AIESEC</strong>. As an <strong>NCC cadet</strong>, I value discipline, teamwork, and continuous learning.</p>
+        </div>
+        <h2>My Introduction</h2>
+        <div class="video-container">
+            <video controls>
+                <source src="images/myvideo.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </main>
+</body>
+</html>

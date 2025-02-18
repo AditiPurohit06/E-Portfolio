@@ -1,0 +1,73 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Gradient Background with Uttarakhand-Inspired Colors */
+body {
+    background: linear-gradient(135deg, #007965, #5a9e6f, #e8c07d, #ecb390); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+/* Home Container */
+.home-container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay for readability */
+    padding: 70px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 900px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Main Title */
+.home-container h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffd700; /* Golden text */
+}
+
+/* Description Section */
+.home-container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #e8e8e8;
+}
+
+/* Tabs/Links Styling */
+.tabs {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tab-link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #000;
+    background-color: #ffd700; /* Golden background */
+    padding: 40px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.tab-link:hover {
+    background-color: #ffa500; /* Darker golden on hover */
+    color: #fff;
+}
